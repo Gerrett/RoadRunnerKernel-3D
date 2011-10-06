@@ -1,0 +1,7 @@
+#
+# Makefile for the TDMB FC8050 drivers.
+#
+
+# Each configuration option enables a list of files.
+obj-$(CONFIG_LGE_BROADCAST)	+= src/
+#obj-y		+= src/
